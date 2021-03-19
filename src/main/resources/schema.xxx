@@ -1,0 +1,11 @@
+drop table contacts if exists;
+create table contacts (
+	id bigint not null auto_increment,
+	name varchar(255),
+	street varchar(255),
+	city varchar(255),
+	state varchar(255),
+	phone varchar(255),
+	relationship varchar(255),
+	primary key(id)
+);
